@@ -20,6 +20,13 @@ class EmployeeListViewController:UIViewController,UITableViewDataSource,UITableV
     var empData : [EmpDetails] = []
 //    var filterData: [ EmpDetails] = []
     
+    @IBAction func plusButton(_ sender: UIBarButtonItem) {
+        if segmentOut.selectedSegmentIndex == 0 {
+            performSegue(withIdentifier: "AddEmployee", sender: Self.self)
+        } else {
+            performSegue(withIdentifier: "AddDevice", sender: self.self)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.rowHeight = UITableView.automaticDimension
