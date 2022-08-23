@@ -8,7 +8,12 @@
 import UIKit
 
 class AddEmployeeViewController: UIViewController {
-
+    
+    
+  
+    @IBOutlet var roles: [UIButton]!
+    
+    @IBOutlet weak var btnRole: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -16,6 +21,39 @@ class AddEmployeeViewController: UIViewController {
     }
     
 
+  
+    @IBAction func selectRole(_ sender: UIButton) {
+        roles.forEach { (button) in
+            UIView.animate(withDuration: 0.3,animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+        }
+        
+    }
+    @IBAction func BtnAdmin(_ sender: UIButton) {
+        btnRole.setTitle("Admin", for: .normal)
+        roles.forEach { (button) in
+            UIView.animate(withDuration: 0.3,animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+        }
+        
+    }
+    @IBAction func BtnEmployee(_ sender: UIButton) {
+        btnRole.setTitle("Employee", for: .normal)
+        roles.forEach { (button) in
+            UIView.animate(withDuration: 0.3,animations: {
+                button.isHidden = !button.isHidden
+                self.view.layoutIfNeeded()
+            })
+        }
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

@@ -21,6 +21,8 @@
 		132AAA4728A3B71F0078EFE3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AAA4628A3B71F0078EFE3 /* TableViewCell.swift */; };
 		132C21ED28A624F400F588FD /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132C21EC28A624F400F588FD /* EmployeeDetailsViewController.swift */; };
 		135DE20D28AE45B600C21B85 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135DE20C28AE45B600C21B85 /* DataModel.swift */; };
+		8FE94B1628B397B6006A9D3B /* extension-alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE94B1528B397B5006A9D3B /* extension-alert.swift */; };
+		8FE94B1928B39886006A9D3B /* extension1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE94B1828B39886006A9D3B /* extension1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		132AAA4628A3B71F0078EFE3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		132C21EC28A624F400F588FD /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
 		135DE20C28AE45B600C21B85 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8FE94B1528B397B5006A9D3B /* extension-alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension-alert.swift"; sourceTree = "<group>"; };
+		8FE94B1828B39886006A9D3B /* extension1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		132355DE28A21ED4004FAFF9 /* InventoryManagement */ = {
 			isa = PBXGroup;
 			children = (
+				8FE94B1728B397E0006A9D3B /* extension */,
 				132355DF28A21ED4004FAFF9 /* AppDelegate.swift */,
 				132355E128A21ED4004FAFF9 /* SceneDelegate.swift */,
 				132355F328A24A0A004FAFF9 /* Controller */,
@@ -113,6 +118,15 @@
 				135DE20C28AE45B600C21B85 /* DataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8FE94B1728B397E0006A9D3B /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				8FE94B1828B39886006A9D3B /* extension1.swift */,
+				8FE94B1528B397B5006A9D3B /* extension-alert.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,9 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				132C21ED28A624F400F588FD /* EmployeeDetailsViewController.swift in Sources */,
+				8FE94B1628B397B6006A9D3B /* extension-alert.swift in Sources */,
 				132AAA4028A282F30078EFE3 /* EmployeeListViewController.swift in Sources */,
 				132355E428A21ED4004FAFF9 /* SigninPageViewController.swift in Sources */,
 				132355F628A27B57004FAFF9 /* PasswordSetupViewController.swift in Sources */,
+				8FE94B1928B39886006A9D3B /* extension1.swift in Sources */,
 				135DE20D28AE45B600C21B85 /* DataModel.swift in Sources */,
 				131CB27328A4E606007D7CB6 /* AddDeviceViewController.swift in Sources */,
 				13285C8728B258E1001F9F82 /* DeviceAssignViewController.swift in Sources */,
