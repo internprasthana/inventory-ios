@@ -17,8 +17,9 @@ class EmployeeDetailsViewController: UIViewController {
     @IBOutlet weak var imageD2: UIImageView!
     @IBOutlet var viewframe: UIView!
     
+   
     var emplyoyee:EmpDetails?
-    
+    var emailDetalis:String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,7 +27,7 @@ class EmployeeDetailsViewController: UIViewController {
         
         EmpName.text = emplyoyee?.name
 //        empEmail.text = emplyoyee.email
-        empId.text = emplyoyee?.empid
+        empId.text = emailDetalis
         empRole.text = emplyoyee?.role
         imageD.image = UIImage(named: emplyoyee?.img ?? "")
     }

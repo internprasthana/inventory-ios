@@ -21,6 +21,9 @@
 		132AAA4728A3B71F0078EFE3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132AAA4628A3B71F0078EFE3 /* TableViewCell.swift */; };
 		132C21ED28A624F400F588FD /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132C21EC28A624F400F588FD /* EmployeeDetailsViewController.swift */; };
 		135DE20D28AE45B600C21B85 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135DE20C28AE45B600C21B85 /* DataModel.swift */; };
+		8F09E77E28B773F500BF8BA2 /* addEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09E77D28B773F500BF8BA2 /* addEmployee.swift */; };
+		8F51F1BA28B4DCAF00396E97 /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F51F1B928B4DCAF00396E97 /* loginPage.swift */; };
+		8F51F1BC28B500FA00396E97 /* loginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F51F1BB28B500FA00396E97 /* loginData.swift */; };
 		8FE94B1628B397B6006A9D3B /* extension-alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE94B1528B397B5006A9D3B /* extension-alert.swift */; };
 		8FE94B1928B39886006A9D3B /* extension1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE94B1828B39886006A9D3B /* extension1.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +45,9 @@
 		132AAA4628A3B71F0078EFE3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		132C21EC28A624F400F588FD /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
 		135DE20C28AE45B600C21B85 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8F09E77D28B773F500BF8BA2 /* addEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addEmployee.swift; sourceTree = "<group>"; };
+		8F51F1B928B4DCAF00396E97 /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = "<group>"; };
+		8F51F1BB28B500FA00396E97 /* loginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginData.swift; sourceTree = "<group>"; };
 		8FE94B1528B397B5006A9D3B /* extension-alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension-alert.swift"; sourceTree = "<group>"; };
 		8FE94B1828B39886006A9D3B /* extension1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,9 +121,20 @@
 		135DE20E28AE45C400C21B85 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8F09E77C28B773D900BF8BA2 /* New Group */,
 				135DE20C28AE45B600C21B85 /* DataModel.swift */,
+				8F09E77D28B773F500BF8BA2 /* addEmployee.swift */,
+				8F51F1B928B4DCAF00396E97 /* loginPage.swift */,
+				8F51F1BB28B500FA00396E97 /* loginData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8F09E77C28B773D900BF8BA2 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		8FE94B1728B397E0006A9D3B /* extension */ = {
@@ -205,6 +222,7 @@
 				132AAA4028A282F30078EFE3 /* EmployeeListViewController.swift in Sources */,
 				132355E428A21ED4004FAFF9 /* SigninPageViewController.swift in Sources */,
 				132355F628A27B57004FAFF9 /* PasswordSetupViewController.swift in Sources */,
+				8F09E77E28B773F500BF8BA2 /* addEmployee.swift in Sources */,
 				8FE94B1928B39886006A9D3B /* extension1.swift in Sources */,
 				135DE20D28AE45B600C21B85 /* DataModel.swift in Sources */,
 				131CB27328A4E606007D7CB6 /* AddDeviceViewController.swift in Sources */,
@@ -212,7 +230,9 @@
 				132355E028A21ED4004FAFF9 /* AppDelegate.swift in Sources */,
 				131CB27128A4E5D1007D7CB6 /* AddEmployeeViewController.swift in Sources */,
 				132AAA4728A3B71F0078EFE3 /* TableViewCell.swift in Sources */,
+				8F51F1BA28B4DCAF00396E97 /* loginPage.swift in Sources */,
 				132355E228A21ED4004FAFF9 /* SceneDelegate.swift in Sources */,
+				8F51F1BC28B500FA00396E97 /* loginData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

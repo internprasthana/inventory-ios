@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 struct EmpDetails{
     let name : String?
-    let empid : String?
+    var empid : String?
     let role : String?
     let img : String?
 }
